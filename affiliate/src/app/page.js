@@ -18,7 +18,7 @@ import { useState, useRef } from "react"
 export default function InstagramStyleLayout() {
   const [canScrollLeft, setCanScrollLeft] = useState(false)
   const [canScrollRight, setCanScrollRight] = useState(true)
-  const socialScrollRef = useRef < HTMLDivElement > (null)
+  const socialScrollRef = useRef(null)
 
   const socialLinks = [
     { icon: Instagram, href: "#", label: "Instagram", color: "hover:bg-pink-100" },
